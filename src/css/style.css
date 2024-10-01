@@ -1,0 +1,635 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.headerTop {
+    display: flex;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    justify-content: center;
+}
+
+.headerTop--img {
+    margin-right: 45%;
+}
+
+.headerList {
+    display: flex;
+    gap: 60px;
+    padding-right: 30px;
+}
+
+.headerList__element {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #6C6C6C;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.headerList__element:hover {
+    color: rgba(172, 19, 19, 1);
+}
+
+.headerList__element:active {
+    color: rgba(100, 19, 19);
+}
+
+.headerTop--button {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-left: 1px solid rgba(235, 235, 235, 1);
+    height: 38px;
+    padding-left: 10px;
+    font-family: "LibreFranklin", sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.headerTop--button:active {
+    transform: scale(0.9);
+}
+
+.headerListCard {
+    display: flex;
+    align-items: center;
+}
+
+.headerListCard--img {
+    padding-right: 5px;
+}
+
+.cart {
+    height: 400px;
+    width: 400px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.cart--title {
+    padding: 30px 0 0 30px;
+    font-family: sans-serif;
+    letter-spacing: .5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.cart--button {
+    background-color: rgba(172, 19, 19, 1);
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: all .2s;
+}
+
+.cart--button:active {
+    background-color: rgba(150, 19, 19, 1);
+}
+
+.headerBottom {
+    width: 100%;
+    height: 708px;
+    background: url('../img/HeaderBackground.png') no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.headerBottom--littleTitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 24px;
+    padding-bottom: 15px;
+    color: rgba(215, 116, 116, 1);
+    ;
+}
+
+.headerBottom--largeTitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: rgba(0, 0, 0, 1);
+    padding-bottom: 14px;
+}
+
+.headerBottom--text {
+    font-family: 'LibreFranklin', sans-serif;
+    font-size: 16px;
+    color: rgba(108, 108, 108, 1);
+    padding-bottom: 51px;
+}
+
+.headerBottom--button {
+    background: rgba(172, 19, 19, 1);
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #fff;
+    padding: 19px 31px 21px 40px;
+    cursor: pointer;
+}
+
+.headerBottom--button:active {
+    background-color: rgba(100, 19, 19, 1);
+}
+
+.productCategories__title--first {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: rgba(215, 116, 116, 1);
+}
+
+.productCategories__title--second {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-top: 120px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.productCategories {
+    position: relative;
+}
+
+.productCategories__title--second img {
+    padding: 0 10px 0 10px;
+}
+
+.productCategories__left {
+    transform: rotate(-90deg);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgba(219, 219, 219, 1);
+    max-width: 233px;
+    position: absolute;
+    top: 440px;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    gap: 200px;
+}
+
+.category__element__first {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 240px;
+    width: 240px;
+    border-radius: 100%;
+    background-color: rgba(228, 179, 102, 1);
+    border: 30px solid rgba(0, 0, 0, 0.05);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.category__element__first img {
+    padding-bottom: 10px;
+}
+
+.category__element__second {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 240px;
+    width: 240px;
+    border-radius: 100%;
+    background-color: rgba(240, 91, 16, 1);
+    border: 30px solid rgba(0, 0, 0, 0.05);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.category__element__third {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 240px;
+    width: 240px;
+    border-radius: 100%;
+    background-color: rgba(162, 16, 16, 1);
+    border: 30px solid rgba(0, 0, 0, 0.05);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.productCategories--info {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 90px 0 151px 0;
+    gap: 250px;
+}
+
+.info--title {
+    font-family: "Poppins", sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    padding-bottom: 26px;
+}
+
+.info--text {
+    font-family: "LibreFranklin", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(108, 108, 108, 1);
+}
+
+.featuredProducts {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 221px;
+    max-height: 733px;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #EBEBEB;
+}
+
+
+.featuredProducts__elementBackground {
+    background-color: #F5F5F5;
+    height: 220px;
+    width: 500px;
+}
+
+.featuredProducts--img {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    top: -144px;
+}
+
+.featuredProducts--imgSecond {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    top: -98px;
+}
+
+.featuredProducts--title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+
+.featuredProducts--text {
+    font-family: "LibreFranklin", sans-serif;
+    font-size: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C6C6C;
+    max-width: 600px;
+    margin-bottom: 27px;
+}
+
+.featuredProducts--bottom {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+.featuredProducts--bottom:active {
+    color: #6C6C6C;
+}
+
+.featuredProducts__top {
+    margin-bottom: 122px;
+}
+
+.featuredProductsTop__element {
+    margin-bottom: 200px;
+}
+
+.featuredProducts__right--text {
+    position: absolute;
+    right: 0;
+    top: 263px;
+    transform: rotate(-90deg);
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    color: #DBDBDB;
+    font-size: 20px;
+}
+
+.potteryCollection--title {
+    margin: 0 auto;
+    padding-top: 121px;
+    text-align: center;
+}
+
+.potteryCollection--titleRed {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #D77474;
+    padding-bottom: 17px;
+}
+
+.potteryCollection--titleBlack {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+    padding-bottom: 17px;
+}
+
+.potteryCollection__products {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: min-content min-content min-content;
+    gap: 20px;
+    justify-content: center;
+}
+
+.potteryCollection__products__element img {
+    padding-bottom: 19.8px;
+}
+
+.potteryCollection__products__element {
+    border-bottom: 1px solid #DBDBDB;
+    padding-bottom: 15px;
+}
+
+.productName {
+    font-family: "Libre Franklin", sans-serif;
+    color: #6C6C6C;
+    line-height: 24px;
+}
+
+.productPrice {
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    line-height: 24px;
+}
+
+.potteryCollection {
+    position: relative;
+}
+
+.potteryCollection--text {
+    position: absolute;
+    top: 820.45px;
+    transform: rotate(-90deg);
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    color: #DBDBDB;
+    line-height: 24px;
+    font-size: 19px;
+}
+
+.potteryCollection--button {
+    padding: 20px 25px;
+    background-color: rgba(172, 19, 19, 1);
+    border: none;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    cursor: pointer;
+    display: block;
+    margin: 40px auto 120px auto;
+}
+
+.potteryCollection--button:active {
+    background-color: rgba(100, 19, 19, 1);
+}
+
+.pompeoPottery {
+    height: 350px;
+    background: url("../img/background.png") no-repeat;
+    background-size: cover;
+    padding: 121px 0 0 17%;
+    overflow: hidden;
+}
+
+.pompeoPottery--litTitle {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #D77474;
+    margin-bottom: 7px;
+    line-height: 24px;
+}
+
+.pompeoPottery--title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 13px;
+    line-height: 46px;
+}
+
+.pompeoPottery--text {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+    color: #6C6C6C;
+    max-width: 500px;
+    line-height: 24px;
+}
+
+.pompeoPottery--textRed {
+    display: inline;
+    color: #AC1313;
+    text-decoration: underline;
+}
+
+.pompeoPottery--button {
+    border: none;
+    background-color: #AC1313;
+    width: 195px;
+    height: 62px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.pompeoPottery--button:active {
+    background-color: rgba(100, 19, 19, 1);
+}
+
+.news {
+    margin-bottom: 162px;
+}
+
+.news--img {
+    margin-top: 122px;
+    display: flex;
+    justify-content: center;
+}
+
+.news--litTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+    color: #D77474;
+}
+
+.news--Title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    align-items: flex-end;
+}
+
+.news--Title img {
+    padding: 0 10px 15px 10px;
+}
+
+.news--input {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.news--input input {
+    padding-left: 25px;
+    width: 320px;
+    height: 45px;
+    border: 1px solid #EBEBEB;
+    color: #A1A1A1;
+    margin-right: 5px;
+}
+
+.news--button {
+    width: 175px;
+    background-color: #000000;
+    border: none;
+    color: #fff;
+}
+
+.news--button:active {
+    background-color: #353535;
+}
+
+.news__submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: "Lato", sans-serif;
+    color: #A1A1A1;
+}
+
+.news__submit input {
+    margin-right: 10px;
+}
+
+.footer {
+    background-color: rgba(219, 219, 219, 0.1);
+    border: 1px solid rgba(219, 219, 219, 0.521);
+}
+
+.footer__title {
+    display: flex;
+    justify-content: center;
+    margin-top: 107px;
+}
+
+.footer__text {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: "Libre Franklin", sans-serif;
+    color: rgba(108, 108, 108, 1);
+    line-height: 24px;
+}
+
+.footer__connection {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Libre Franklin", sans-serif;
+    color: rgba(108, 108, 108, 1);
+}
+
+.footer__connection__element {
+    text-align: center;
+    line-height: 24px;
+}
+
+.footer__connection__element--title {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.footer__info{
+    font-family: "Libre Franklin", sans-serif;
+    color: #6C6C6C;
+    line-height: 24px;
+    text-align: center;
+    background-color: rgba(219, 219, 219, 0.1);
+    border: 1px solid rgba(219, 219, 219, 0.521);
+    padding: 30px 0;
+    margin-top: 55px;
+}
+
+.footer__info__black{
+    color: #000;
+    padding: 0 4px;
+}
