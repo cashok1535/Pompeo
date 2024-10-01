@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Pompeo/static/css/main.8a858985.css",
+    "main.js": "/Pompeo/static/js/main.f6fb4d9b.js",
+    "static/media/background.png": "/Pompeo/static/media/background.a16f0df4f68d6ed9eaa5.png",
+    "static/media/headerImage.png": "/Pompeo/static/media/headerImage.a16aeb5c83774192fe8e.png",
+    "static/media/Poppins-Regular.eot": "/Pompeo/static/media/Poppins-Regular.2e956be9f70266a6389b.eot",
+    "static/media/Poppins-Bold.eot": "/Pompeo/static/media/Poppins-Bold.3fb6d24cfcd4f1391260.eot",
+    "static/media/productOne.png": "/Pompeo/static/media/productOne.3bf7eca9daa8f52beba9.png",
+    "static/media/HeaderBackground.png": "/Pompeo/static/media/HeaderBackground.a25c7b58dca82c232887.png",
+    "static/media/productFive.png": "/Pompeo/static/media/productFive.bc05ed18b63355c3fb47.png",
+    "static/media/featuredImgTop.png": "/Pompeo/static/media/featuredImgTop.17e953fb4434ca5897f9.png",
+    "static/media/featuredImgBottom.png": "/Pompeo/static/media/featuredImgBottom.7d248ed104846a550193.png",
+    "static/media/LibreFranklin-Regular.eot": "/Pompeo/static/media/LibreFranklin-Regular.137fbc4e735c800c8367.eot",
+    "static/media/LibreFranklin-Bold.eot": "/Pompeo/static/media/LibreFranklin-Bold.2f741c548b7249f291e3.eot",
+    "static/media/productSix.png": "/Pompeo/static/media/productSix.abbab71103b3f4d820a2.png",
+    "static/media/Poppins-Regular.woff": "/Pompeo/static/media/Poppins-Regular.ab6122bd28174ddf9eeb.woff",
+    "static/media/Poppins-Bold.woff": "/Pompeo/static/media/Poppins-Bold.d1c550e43ca6e696c787.woff",
+    "static/media/productThree.png": "/Pompeo/static/media/productThree.952cdb6a950f520fcc5a.png",
+    "static/media/productFour.png": "/Pompeo/static/media/productFour.14a78c4b6200c96ed12b.png",
+    "static/media/productTwo.png": "/Pompeo/static/media/productTwo.238d017346be943e655f.png",
+    "static/media/Lato-Regular.eot": "/Pompeo/static/media/Lato-Regular.627c0e3312a2073e7bf2.eot",
+    "static/media/Poppins-Regular.woff2": "/Pompeo/static/media/Poppins-Regular.9641d5d087bc9e626d4c.woff2",
+    "static/media/Poppins-Bold.woff2": "/Pompeo/static/media/Poppins-Bold.02d30d49f061087e6275.woff2",
+    "static/media/Lato-Regular.woff": "/Pompeo/static/media/Lato-Regular.2fc7f4d10ffe3f2e9713.woff",
+    "static/media/LibreFranklin-Regular.woff": "/Pompeo/static/media/LibreFranklin-Regular.7fd2fbac153ed79a34b1.woff",
+    "static/media/LibreFranklin-Bold.woff": "/Pompeo/static/media/LibreFranklin-Bold.19a1f73b9597843010bc.woff",
+    "static/media/LibreFranklin-Bold.woff2": "/Pompeo/static/media/LibreFranklin-Bold.3bbb06d150ca5c789b9a.woff2",
+    "static/media/LibreFranklin-Regular.woff2": "/Pompeo/static/media/LibreFranklin-Regular.1f4999003b2443d72652.woff2",
+    "static/media/Pompeo.svg": "/Pompeo/static/media/Pompeo.b5786f012e4723404a9582e3f84c716a.svg",
+    "static/media/cart.svg": "/Pompeo/static/media/cart.967a04c732c30b71371ae519f9dbf30d.svg",
+    "index.html": "/Pompeo/index.html",
+    "main.8a858985.css.map": "/Pompeo/static/css/main.8a858985.css.map",
+    "main.f6fb4d9b.js.map": "/Pompeo/static/js/main.f6fb4d9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a858985.css",
+    "static/js/main.f6fb4d9b.js"
+  ]
+}
